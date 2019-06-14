@@ -6,7 +6,6 @@
         this.prototype.constructor();
         this.__proto__.__objname__ = "array";
     }
-    
     var load = new load();
     load.Run();
     function Fire(obj) {
