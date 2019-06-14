@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tansoz</title>
+    <script src="firejs/fire.js"></script>
+    <script>
+$(function(){
+    console.log(document.getElementById("a"));
+});
+$("#a");
+    </script>
+</head>
+<body>
+    <a id="a">a</a>
+    <a id="b">b</a>
+</body>
+<script>
+$(function(){
+    console.log(document.getElementById("b"));
+    document.getElementById("b").onclick = function(){
+        $(this);
+    }
+});
+console.log([1,2,5,9,6].name);
+</script>
+</html>
